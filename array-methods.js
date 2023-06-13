@@ -48,7 +48,7 @@ Find
 */
 
 const special = products.find(p => p.name.includes('a'))
-console.log(special);
+// console.log(special);
 
 
 
