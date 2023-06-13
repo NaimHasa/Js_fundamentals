@@ -24,8 +24,8 @@ forEach
 */
 
 
-products.forEach(product => console.log(product));
-products.forEach(product => console.log(product.color));
+// products.forEach(product => console.log(product));
+// products.forEach(product => console.log(product.color));
 
 products.forEach(product => {
     // --------------
@@ -37,7 +37,22 @@ products.forEach(product => {
 
 */
 const cheap = products.filter(product => product.price <= 5000);
-console.log(cheap);
+// console.log(cheap);
+
+
+const specificName = products.filter(p => p.name.includes('c'));
+// console.log(specificName);
+
+/*
+Find
+*/
+
+const special = products.find(p => p.name.includes('a'))
+console.log(special);
+
+
+
+
 
 
 
