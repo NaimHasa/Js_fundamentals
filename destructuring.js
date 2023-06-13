@@ -41,3 +41,7 @@ const { name, dep } = studentInfo;
 const { mostLike } = studentInfo.favColor;
 
 
+
+
+
+
