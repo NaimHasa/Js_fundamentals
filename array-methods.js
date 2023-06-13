@@ -11,10 +11,36 @@ const products = [
 // array of  map 
 
 const barand = products.map(product => (product.brand));
-console.log(barand);
+// console.log(barand);
 
 const price = products.map(product => product.price);
-console.log(price);
+// console.log(price);
 const color = products.map(product => product.color);
-console.log(color);
+// console.log(color);
+
+
+/*
+forEach
+*/
+
+
+products.forEach(product => console.log(product));
+products.forEach(product => console.log(product.color));
+
+products.forEach(product => {
+    // --------------
+});
+
+
+/*
+ filter 
+
+*/
+const cheap = products.filter(product => product.price <= 5000);
+console.log(cheap);
+
+
+
+
+
 
